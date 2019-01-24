@@ -27,11 +27,17 @@ function uri_admin_login_enqueues() {
 }
 add_action( 'login_enqueue_scripts', 'uri_admin_login_enqueues' );
 
+/**
+ * Modify login logo url
+ */
 function uri_admin_login_wp_login_url() {
 	return get_bloginfo( 'url' );
 }
 add_filter( 'login_headerurl', 'uri_admin_login_wp_login_url' );
 
+/**
+ * Modify login logo tooltip
+ */
 function uri_admin_login_wp_login_title() {
 	return get_bloginfo( 'name' );
 }
