@@ -1,0 +1,96 @@
+/* ======= STYLES ======= */
+
+@import url("https://fonts.googleapis.com/css?family=Hind:400,600") all;
+
+body.login {
+	
+	background: #fafafa;
+	font-family: "Hind", Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	
+	p.message {
+		border: 2px solid #5cadff;
+		border-radius: 4px;
+		font-weight: bold;
+		box-shadow: none;
+	}
+	
+	input[type=submit].button-primary {
+		background: #002147;
+		border: none;
+		box-shadow: none;
+		text-shadow: none;
+		border-radius: 2px;
+		padding: 2px 12px 0;
+	}
+	
+}
+
+
+#login h1,
+.login h1 {
+	
+	a {
+		
+		background-size: 100%;
+		background-image: url(../i/logo.png);
+		height: 100px;
+		padding-bottom: .5rem;
+		width: 205px;
+		
+		&:focus {
+			box-shadow: none;
+		}
+		
+	}
+	
+}
+
+#login {
+	
+	#nav a:hover,
+	#backtoblog a:hover {
+		color: #005eff;
+	}
+	
+	form {
+		
+		position: relative;
+		overflow: visible;
+		box-shadow: none;
+		border: 1px solid #ddd;
+		border-top: none;
+		border-radius: 0 0 .2rem .2rem;
+		padding-bottom: 50px;
+		margin-top: 3rem;
+		
+		&:before {
+			position: absolute;
+			top: -20px;
+			left: -1px;
+			display: block;
+			content: '';
+			width: calc( 100% + 2px );
+			height: 20px;
+			background-color: #002147;
+			background-image: url(../i/campus.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		
+		input:not([type=submit]) {
+			
+			box-shadow: none;
+			border-radius: 2px;
+			padding: 5px 10px 2px;
+			
+			&:focus {
+				border: 1px solid #5cadff;
+			}
+			
+		}
+		
+	}
+	
+}
