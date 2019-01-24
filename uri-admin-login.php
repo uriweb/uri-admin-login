@@ -3,7 +3,7 @@
  * Plugin Name: URI Admin Login
  * Plugin URI: http://www.uri.edu
  * Description: Customizations for the admin login screen
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: URI Web Communications
  * Author URI: https://today.uri.edu/
  *
