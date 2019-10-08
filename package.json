@@ -15,20 +15,21 @@
   "license": "GPL-3.0",
   "licenseURI": "http://www.gnu.org/licenses/gpl.html",
   "devDependencies": {
-    "autoprefixer": "^9.4.6",
-    "gulp": "^4.0.0",
+    "autoprefixer": "^9.6.4",
+    "gulp": "^4.0.2",
     "gulp-concat": ">=2.6.1",
-    "gulp-header": "^2.0.7",
+    "gulp-header": "^2.0.9",
     "gulp-jscs": ">=4.1.0",
-    "gulp-jshint": ">=2.0.4",
-    "gulp-postcss": ">=7.0.0",
+    "gulp-jshint": ">=2.1.0",
+    "gulp-postcss": ">=8.0.0",
     "gulp-replace-task": "^0.11.0",
     "gulp-sass": "^4.0.2",
-    "gulp-shell": ">=0.6.5",
-    "gulp-sourcemaps": "^2.6.4",
+    "gulp-shell": ">=0.7.1",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-strip-debug": "^3.0.0",
-    "gulp-uglify": "^3.0.1",
-    "jshint": "^2.9.7"
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.2",
+    "lodash": ">=4.17.13"
   },
   "browserslist": {
     "production": [
