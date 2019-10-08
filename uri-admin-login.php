@@ -41,4 +41,18 @@ add_filter( 'login_headerurl', 'uri_admin_login_wp_login_url' );
 function uri_admin_login_wp_login_title() {
 	return get_bloginfo( 'name' );
 }
-add_filter( 'login_headertitle', 'uri_admin_login_wp_login_title' );
+if ( version_compare( $wp_version, '5.2', '>=' ) ) {
+	add_filter( 'login_headertext', 'uri_admin_login_wp_login_title' );
+} else {
+	// login_headertitle is deprecated as of WP 5.2, but web still runs 4.x
+	add_filter( 'login_headertitle', 'uri_admin_login_wp_login_title' );
+}
+
+
+/**
+ * Modify the forgot password link
+ */
+function uri_admin_login_lost_password_page( $lostpassword_url, $redirect ) {
+	return 'https://password.uri.edu';
+}
+add_filter( 'lostpassword_url', 'uri_admin_login_lost_password_page', 10, 2 );
