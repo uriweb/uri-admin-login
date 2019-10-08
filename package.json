@@ -28,7 +28,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "jshint": "^2.10.2"
+    "jshint": "^2.10.2",
+    "lodash": ">=4.17.13"
   },
   "browserslist": {
     "production": [
