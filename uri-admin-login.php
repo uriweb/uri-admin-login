@@ -16,6 +16,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
+include 'inc/uri-admin-dashboard.php';
+
 /**
  * Include css and js
  */
