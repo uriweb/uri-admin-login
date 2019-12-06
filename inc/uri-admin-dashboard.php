@@ -33,11 +33,11 @@ function uri_admin_remove_boxes() {
 		remove_meta_box( 'dashboard_recent_drafts', 'dashboard', 'side' );
 		remove_meta_box( 'dashboard_recent_comments', 'dashboard', 'normal' );
 		remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
-		remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');
+		remove_meta_box( 'dashboard_activity', 'dashboard', 'normal' );
 	}
 
 }
-add_action( 'admin_init', 'uri_admin_remove_boxes' ); 
+add_action( 'admin_init', 'uri_admin_remove_boxes' );
 
 
 /**
@@ -56,5 +56,5 @@ add_action( 'wp_dashboard_setup', 'uri_admin_add_dashboard_widgets' );
  * Create the function to output the contents of your Dashboard Widget.
  */
 function uri_admin_style_guide_callback() {
-	_e('Learn about customizations with the <a href="https://www.uri.edu/styleguide/" target="_blank">URI Digital Style Guide</a>.', 'uri');
+	_e( 'Learn about customizations with the <a href="https://www.uri.edu/styleguide/" target="_blank">URI Digital Style Guide</a>.', 'uri' );
 }
