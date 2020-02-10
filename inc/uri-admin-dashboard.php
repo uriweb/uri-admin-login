@@ -1,4 +1,9 @@
 <?php
+/**
+ * Admin Dashboard
+ *
+ * @package uri-admin-login
+ */
 
 // Block direct requests
 if ( ! defined( 'ABSPATH' ) ) {
