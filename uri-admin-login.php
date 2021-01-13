@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-add_filter( 'admin_email_check_interval', '__return_false');
+add_filter( 'admin_email_check_interval', '__return_false' );
 
 include 'inc/uri-admin-dashboard.php';
 

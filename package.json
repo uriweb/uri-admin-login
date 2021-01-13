@@ -1,7 +1,7 @@
 {
   "name": "uri-admin-login",
   "description": "Customizations to the admin login screen",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://www.uri.edu",
   "repository": "https://github.com/uriweb/uri-admin-login",
   "docs": "https://github.com/uriweb/uri-admin-login#readme",

@@ -26,7 +26,6 @@ add_filter( 'admin_footer_text', 'uri_admin_footer' );
  */
 function uri_admin_remove_boxes() {
 	// @see https://www.wpexplorer.com/customize-wordpress-admin-dashboard/
-
 	// limit our handed-down customizations to users who can't manage options
 	if ( ! current_user_can( 'manage_options' ) ) {
 		// these are the default WP meta boxes
