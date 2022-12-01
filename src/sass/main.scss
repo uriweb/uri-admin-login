@@ -52,8 +52,27 @@ body.login {
 	#backtoblog a:hover {
 		color: #005eff;
 	}
+
+	#login-via-sso {
+
+		display: block;
+		background: #2277b3;
+		color: #fff;
+		padding: 1rem 0;
+		text-decoration: none;
+		font-weight: bold;
+		border-radius: .2rem;
+
+		&:hover,
+		&:focus {
+			background: #30557e;
+		}
+		
+	}
 	
 	form {
+
+		display: none; //Hide form... doesn't do anything when using SSO
 		
 		position: relative;
 		overflow: visible;
