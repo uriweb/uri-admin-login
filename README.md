@@ -2,6 +2,10 @@
 
 The URI Admin Login plugin makes style customizations for the WordPress login screen.
 
+## What's new in v2.0.1
+
+- Removes functions already found in [uri-admin](https://github.com/uriweb/uri-admin)
+
 ## What's new in v2.0
 
 - Makes the SSO login link prominent
