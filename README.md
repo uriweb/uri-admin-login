@@ -6,6 +6,7 @@ The URI Admin Login plugin makes style customizations for the WordPress login sc
 
 - Makes the SSO login link prominent
 - Hides the default WP login fields, which serve no function when SSO is enabled
+- Updates development tools
 
 ## Plugin Details
 
