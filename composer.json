@@ -1,0 +1,17 @@
+{
+    "name": "uriweb/uri-admin-login",
+    "type":  "wordpress-plugin",
+    "description": "URI Admin Login is a Wordpress plugin that makes style customizations for the WordPress login screen.",
+    "authors": [
+        {
+            "name": "URI Web Communications",
+            "email": "web-group@uri.edu",
+            "homepage": "https://github.com/uriweb"
+        }
+    ],
+    "homepage": "https://www.uri.edu",
+    "license": "GPL-3.0-only",
+    "require": {
+        "php": ">=7.4"
+    }
+}
