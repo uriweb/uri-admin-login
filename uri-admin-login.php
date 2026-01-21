@@ -3,7 +3,7 @@
  * Plugin Name: URI Admin Login
  * Plugin URI: http://www.uri.edu
  * Description: Customizations for the admin login screen
- * Version: 2.1.0
+ * Version: 2.1.1
  * Author: URI Web Communications
  * Author URI: https://today.uri.edu/
  *
@@ -17,8 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 add_filter( 'admin_email_check_interval', '__return_false' );
-
-include 'inc/uri-admin-dashboard.php';
 
 /**
  * Include css and js
