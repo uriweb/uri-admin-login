@@ -2,6 +2,10 @@
 
 The URI Admin Login plugin makes style customizations for the WordPress login screen.
 
+## What's new in v2.1.1
+
+- Removes a function that added a widget to the dashboard that had an outdated link to the URI style guide. 
+
 ## What's new in v2.1.0
 
 - Adds a composer.json file and updates dependencies.
@@ -30,5 +34,5 @@ Customizations to the admin login screen
 Contributors: Brandon Fuller  
 Tags: plugins  
 Requires at least: 4.0  
-Tested up to: 5.2  
-Stable tag: 2.1  
+Tested up to: 6.8.2  
+Stable tag: 2.1.1 
