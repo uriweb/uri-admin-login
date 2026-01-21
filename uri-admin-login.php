@@ -18,8 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 add_filter( 'admin_email_check_interval', '__return_false' );
 
-include 'inc/uri-admin-dashboard.php';
-
 /**
  * Include css and js
  */
